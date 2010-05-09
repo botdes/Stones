@@ -16,6 +16,21 @@ import java.awt.event.KeyEvent;
 public class AddtionalFrame extends JFrame {
     private JTextPane wordField = new JTextPane();
     private JTextPane translateField = new JTextPane();
+    private KeyAdapter keyAdapter = new KeyAdapter() {
+        @Override
+        public void keyReleased(KeyEvent e) {
+            System.out.println(e.getKeyCode());
+            if (isVisible()) {
+                switch (e.getKeyCode()) {
+                    case KeyEvent.VK_ESCAPE:
+                        setVisible(false);
+                        break;
+                    case KeyEvent.VK_ENTER:
+                        throw new UnsupportedOperationException();
+                }
+            }
+        }
+    };
 
     public AddtionalFrame() throws HeadlessException {
         setSize(400, 400);
@@ -27,21 +42,8 @@ public class AddtionalFrame extends JFrame {
         getContentPane().add(createValues(), BorderLayout.CENTER);
         getContentPane().add(createButtons(), BorderLayout.SOUTH);
         setFocusable(true);
-        addKeyListener(new KeyAdapter() {
-            @Override
-            public void keyReleased(KeyEvent e) {
-                System.out.println(e.getKeyCode());
-                if (isVisible()) {
-                    switch (e.getKeyCode()) {
-                        case KeyEvent.VK_ESCAPE:
-                            setVisible(false);
-                            break;
-                        case KeyEvent.VK_ENTER:
-                            throw new UnsupportedOperationException();
-                    }
-                }
-            }
-        });
+
+        addKeyListener(keyAdapter);
     }
 
     private JPanel createButtons() {
@@ -68,6 +70,7 @@ public class AddtionalFrame extends JFrame {
         translateScrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
         JSplitPane pane = new JSplitPane(JSplitPane.VERTICAL_SPLIT, wordScrollPane, translateScrollPane);
         pane.setDividerLocation(0.4);
+        pane.addKeyListener(keyAdapter);
         return pane;
     }
 

@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="0e1b192c-5fc7-4712-8fa1-d1a72e9ee4e7" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AddtionalFrame.java" afterPath="$PROJECT_DIR$/src/ru/botland/stones/AddtionalFrame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/google-api-translate-java-0.92.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stones.iml" afterPath="$PROJECT_DIR$/stones.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/MainFrame.java" afterPath="$PROJECT_DIR$/src/ru/botland/stones/MainFrame.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Allower.java" afterPath="$PROJECT_DIR$/src/ru/botland/stones/Allower.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ClipboardListener.java" afterPath="$PROJECT_DIR$/src/ru/botland/stones/ClipboardListener.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/googleTranslate.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/QueryString.java" afterPath="$PROJECT_DIR$/src/ru/botland/stones/QueryString.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/ru/botland/stones/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/google_translate.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Example.java" afterPath="$PROJECT_DIR$/src/ru/botland/stones/Example.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/botland/stones/AddtionalFrame.java" afterPath="$PROJECT_DIR$/src/ru/botland/stones/AddtionalFrame.java" />
     </list>
-    <ignored path="timus.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="timus.iws" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,47 +91,22 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ClipboardListener.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/botland/stones/ClipboardListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="22" selection-start="1635" selection-end="1641" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddtionalFrame.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/botland/stones/AddtionalFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="0" selection-start="2605" selection-end="2605" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QueryString.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/botland/stones/QueryString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KeyEvent.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-6-sun/src.zip!/java/awt/event/KeyEvent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="843" column="9" selection-start="29051" selection-end="29051" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainFrame.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MainFrame.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/botland/stones/MainFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="44" selection-start="628" selection-end="628" vertical-scroll-proportion="0.6643952">
+            <state line="19" column="97" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddtionalFrame.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ru/botland/stones/AddtionalFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="18" selection-start="1925" selection-end="1925" vertical-scroll-proportion="0.28074867">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,7 +114,34 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/botland/stones/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="64" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
+            <state line="12" column="33" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClipboardListener.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/botland/stones/ClipboardListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="30" selection-start="1720" selection-end="1729" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TranslatorFrame.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/google-api-translate-java-0.92.jar!/com/google/api/translate/TranslatorFrame.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Files.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/google-api-translate-java-0.92.jar!/com/google/api/Files.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="13" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -217,6 +209,8 @@
         <option value="$PROJECT_DIR$/src/ClipboardListener.java" />
         <option value="$PROJECT_DIR$/src/AddtionalFrame.java" />
         <option value="$PROJECT_DIR$/src/ru/botland/stones/MainFrame.java" />
+        <option value="$PROJECT_DIR$/src/ru/botland/stones/ClipboardListener.java" />
+        <option value="$PROJECT_DIR$/src/ru/botland/stones/AddtionalFrame.java" />
       </list>
     </option>
   </component>
@@ -255,7 +249,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -308,6 +301,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
       <pane id="Scope">
         <subPane />
         <subPane subId="Problems" />
@@ -331,9 +325,9 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -576,19 +570,19 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32753164" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24939074" sideWeight="0.6598101" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24939074" sideWeight="0.66297466" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32594937" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32594937" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32753164" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24939074" sideWeight="0.57301587" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -626,11 +620,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/java-6-sun/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="711" column="22" selection-start="29935" selection-end="29935" vertical-scroll-proportion="0.33161953" />
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-6-sun/src.zip!/java/awt/datatransfer/DataFlavor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="238" column="11" selection-start="9791" selection-end="9791" vertical-scroll-proportion="10.788644" />
@@ -638,9 +627,7 @@
     </entry>
     <entry file="jar:///usr/lib/jvm/java-6-sun/src.zip!/java/awt/datatransfer/Clipboard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="20" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="36" column="20" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/botland/stones/Allower.java">
@@ -653,46 +640,19 @@
         <state line="585" column="29" selection-start="22425" selection-end="22425" vertical-scroll-proportion="0.3321976" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/botland/stones/ClipboardListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="22" selection-start="1635" selection-end="1641" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/botland/stones/AddtionalFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="0" selection-start="2605" selection-end="2605" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/botland/stones/QueryString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="12" column="13" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar:///usr/lib/jvm/java-6-sun/src.zip!/java/awt/event/KeyEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="843" column="9" selection-start="29051" selection-end="29051" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/botland/stones/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="64" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="843" column="9" selection-start="29051" selection-end="29051" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/botland/stones/Example.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="503" selection-end="785" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="21" column="0" selection-start="503" selection-end="785" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar:///usr/lib/jvm/java-6-sun-1.6.0.20/jre/lib/rt.jar!/sun/awt/X11/XClipboard.class">
@@ -710,10 +670,47 @@
         <state line="705" column="25" selection-start="27944" selection-end="27944" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/google-api-translate-java-0.92.jar!/com/google/api/translate/TranslatorFrame.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/google-api-translate-java-0.92.jar!/com/google/api/Files.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/botland/stones/ClipboardListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="30" selection-start="1720" selection-end="1729" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/botland/stones/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="33" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/botland/stones/MainFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="44" selection-start="628" selection-end="628" vertical-scroll-proportion="0.6643952">
+        <state line="19" column="97" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/botland/stones/AddtionalFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="18" selection-start="1925" selection-end="1925" vertical-scroll-proportion="0.28074867">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
