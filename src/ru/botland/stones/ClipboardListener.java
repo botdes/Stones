@@ -1,3 +1,5 @@
+package ru.botland.stones;
+
 import com.google.api.translate.Language;
 import com.google.api.translate.Translate;
 
@@ -60,13 +62,13 @@ public class ClipboardListener extends Thread implements ClipboardOwner {
     }
 
     public static void main(String[] args) throws Exception {
-//        ClipboardListener b = new ClipboardListener();
+//        ru.botland.stones.ClipboardListener b = new ru.botland.stones.ClipboardListener();
 //        b.start();
 //        new JFrame().setVisible(true);
-//        new ClipboardListener().postExample("http://ankisrs.net/deck/edit/Add", new QueryString().
+//        new ru.botland.stones.ClipboardListener().postExample("http://ankisrs.net/deck/edit/Add", new ru.botland.stones.QueryString().
 //                add("Front",  "fftest").add("Back", "btest"));
 
-//        new ClipboardListener().postExample("http://ankisrs.net/account/login", new QueryString().
+//        new ru.botland.stones.ClipboardListener().postExample("http://ankisrs.net/account/login", new ru.botland.stones.QueryString().
 //                        add("username",  "botdes").add("password", "s1zP9ZdGvvIg"));
 
         Translate.setHttpReferrer("http://google.com");

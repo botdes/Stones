@@ -8,6 +8,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="googleTranslate" level="project" />
+    <orderEntry type="library" name="google-translate" level="project" />
   </component>
 </module>
 

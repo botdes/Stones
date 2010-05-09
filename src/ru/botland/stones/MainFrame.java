@@ -1,3 +1,5 @@
+package ru.botland.stones;
+
 import javax.swing.*;
 
 /**

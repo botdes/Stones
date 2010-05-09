@@ -1,3 +1,5 @@
+package ru.botland.stones;
+
 /**
  * Created by IntelliJ IDEA.
  * User: botdes

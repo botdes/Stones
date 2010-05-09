@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="google-translate">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/google-api-translate-java-0.92.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

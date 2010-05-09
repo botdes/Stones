@@ -1,3 +1,5 @@
+package ru.botland.stones;
+
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 
