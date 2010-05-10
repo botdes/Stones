@@ -16,6 +16,8 @@ import java.awt.event.KeyEvent;
 public class AddtionalFrame extends JFrame {
     private JTextPane wordField = new JTextPane();
     private JTextPane translateField = new JTextPane();
+    private final String cookie;
+
     private KeyAdapter keyAdapter = new KeyAdapter() {
         @Override
         public void keyReleased(KeyEvent e) {
@@ -42,8 +44,13 @@ public class AddtionalFrame extends JFrame {
         getContentPane().add(createValues(), BorderLayout.CENTER);
         getContentPane().add(createButtons(), BorderLayout.SOUTH);
         setFocusable(true);
-
         addKeyListener(keyAdapter);
+
+        cookie = prepareConnection();
+    }
+
+    private String prepareConnection() {
+        return null;  //To change body of created methods use File | Settings | File Templates.
     }
 
     private JPanel createButtons() {
