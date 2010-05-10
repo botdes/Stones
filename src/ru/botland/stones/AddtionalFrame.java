@@ -14,9 +14,10 @@ import java.awt.event.KeyEvent;
  * To change this template use File | Settings | File Templates.
  */
 public class AddtionalFrame extends JFrame {
+
     private JTextPane wordField = new JTextPane();
     private JTextPane translateField = new JTextPane();
-    private final String cookie;
+    private final Connector connector;
 
     private KeyAdapter keyAdapter = new KeyAdapter() {
         @Override
@@ -28,13 +29,16 @@ public class AddtionalFrame extends JFrame {
                         setVisible(false);
                         break;
                     case KeyEvent.VK_ENTER:
-                        throw new UnsupportedOperationException();
+                        sendData();
+                        setVisible(false);
+                        break;
                 }
             }
         }
     };
 
     public AddtionalFrame() throws HeadlessException {
+        connector = new Connector();
         setSize(400, 400);
         setTitle("Translate");
         wordField.setMargin(new Insets(5, 5, 5, 5));
@@ -45,12 +49,6 @@ public class AddtionalFrame extends JFrame {
         getContentPane().add(createButtons(), BorderLayout.SOUTH);
         setFocusable(true);
         addKeyListener(keyAdapter);
-
-        cookie = prepareConnection();
-    }
-
-    private String prepareConnection() {
-        return null;  //To change body of created methods use File | Settings | File Templates.
     }
 
     private JPanel createButtons() {
@@ -58,7 +56,7 @@ public class AddtionalFrame extends JFrame {
         panel.add(new JButton(new AbstractAction("Send") {
             @Override
             public void actionPerformed(ActionEvent e) {
-                throw new UnsupportedOperationException();
+                sendData();
             }
         }));
         panel.add(new JButton(new AbstractAction("No") {
@@ -68,6 +66,10 @@ public class AddtionalFrame extends JFrame {
             }
         }));
         return panel;
+    }
+
+    private void sendData() {
+        connector.sendData(wordField.getText(), translateField.getText());
     }
 
     private JComponent createValues() {
