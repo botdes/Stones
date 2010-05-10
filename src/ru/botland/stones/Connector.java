@@ -55,8 +55,8 @@ public class Connector {
         if (cookie == null || "".equals(cookie)) {
             cookie = postData("http://ankisrs.net/account/login",
                     new QueryString()
-                            .add("username", "botdes")
-                            .add("password", "s1zP9ZdGvvIg")
+                            .add("username", "yourName")
+                            .add("password", "yourPass")
                             .add("submitted", "1"), false
             );
         }
