@@ -23,7 +23,7 @@ public class Connector {
             postData("http://ankisrs.net/deck/edit",
                    new QueryString()
                            .add("Front", word).add("Back", translation)
-                           .add("tags", "").add("action", "Add"), false
+                           .add("tags", "").add("action", "Add"), true
            );
         } catch (IOException e) {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
@@ -33,14 +33,13 @@ public class Connector {
 
     }
 
-    private String postData(String url, QueryString query, boolean getCookie) throws IOException, URISyntaxException {
+    private String postData(String url, QueryString query, boolean withCookie) throws IOException, URISyntaxException {
         HttpURLConnection conn = (HttpURLConnection) new URL(url).openConnection();
-        conn.setInstanceFollowRedirects(!getCookie);
-        if (getCookie) {
+        conn.setInstanceFollowRedirects(withCookie);
+        if (withCookie) {
             conn.setRequestProperty("Cookie", getCookie());
         }
         System.out.println(conn.getRequestProperties());
-        System.out.println("");
         conn.setDoOutput(true);
         conn.connect();
         OutputStreamWriter out = new OutputStreamWriter(conn.getOutputStream());
@@ -52,12 +51,13 @@ public class Connector {
     }
 
     private String getCookie() throws IOException, URISyntaxException {
-        if (cookie == null) {
+        System.out.println("cookie = " + cookie);
+        if (cookie == null || "".equals(cookie)) {
             cookie = postData("http://ankisrs.net/account/login",
                     new QueryString()
                             .add("username", "botdes")
                             .add("password", "s1zP9ZdGvvIg")
-                            .add("submitted", "1"), true
+                            .add("submitted", "1"), false
             );
         }
         return cookie;
