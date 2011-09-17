@@ -20,7 +20,7 @@ public class Connector {
 
     public void sendData(final String word, final String translation) {
         try {
-            postData("http://ankisrs.net/deck/edit",
+            postData("http://ankiweb.net/deck/edit",
                    new QueryString()
                            .add("Front", word).add("Back", translation)
                            .add("tags", "").add("action", "Add"), true
@@ -53,10 +53,10 @@ public class Connector {
     private String getCookie() throws IOException, URISyntaxException {
         System.out.println("cookie = " + cookie);
         if (cookie == null || "".equals(cookie)) {
-            cookie = postData("http://ankisrs.net/account/login",
+            cookie = postData("http://ankiweb.net/account/login",
                     new QueryString()
-                            .add("username", "yourName")
-                            .add("password", "yourPass")
+                            .add("username", "botdes")
+                            .add("password", "botanki")
                             .add("submitted", "1"), false
             );
         }

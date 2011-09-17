@@ -14,8 +14,11 @@ import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
+import java.util.logging.Logger;
 
 public class ClipboardListener extends Thread implements ClipboardOwner {
+    private static final Logger log = Logger.getLogger(ClipboardListener.class.toString());
+
     private final Clipboard sysClip = Toolkit.getDefaultToolkit().getSystemClipboard();
     private Allower allower;
     private AddtionalFrame addtionalFrame;
@@ -29,7 +32,7 @@ public class ClipboardListener extends Thread implements ClipboardOwner {
     public void run() {
         final Transferable trans = sysClip.getContents(this);
         regainOwnership(trans);
-        System.out.println("Listening to board...");
+        log.info("Listening to clipboard...");
     }
 
     public void lostOwnership(Clipboard c, Transferable t) {
@@ -42,11 +45,12 @@ public class ClipboardListener extends Thread implements ClipboardOwner {
         if (allower.allow()) {
             try {
                 String data = (String) t.getTransferData(DataFlavor.stringFlavor);
-                final String transtale = Translate.execute(data, Language.ENGLISH, Language.RUSSIAN);
-                createFrame(data, transtale);
-                System.out.println("Processing: " + data + " -> " + transtale);
+                final String translation = Translate.execute(data, Language.ENGLISH, Language.RUSSIAN);
+                createFrame(data, translation);
+                System.out.println("Processing: " + data + " -> " + translation);
             } catch (Exception e) {
-                e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                log.info(e.getMessage());
+                e.printStackTrace();
             }
         }
     }

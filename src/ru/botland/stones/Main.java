@@ -9,10 +9,10 @@ package ru.botland.stones;
  */
 public class Main {
 
-    public static void main(String[] args) {
-        MainFrame frame = new MainFrame();
+    public static void main(final String[] args) {
+        final MainFrame frame = new MainFrame();
         frame.setVisible(true);
-        ClipboardListener listener = new ClipboardListener(frame);
+        final ClipboardListener listener = new ClipboardListener(frame);
         listener.run();
 
     }
